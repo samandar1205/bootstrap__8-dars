@@ -8,168 +8,60 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <div class="container">
-        <a href="#" class="navbar-brand">IT-PARK</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainMenu">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Bosh sahifa</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Biz haqimizda</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Jamoa</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Kurslar</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Murojat uchun</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 <div class="container">
     <div class="row my-5">
-        <div class="col-md-12">
-            <div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="1200">
-                <ul class="carousel-indicators">
-                    <li class="active" data-slide-to="1" data-target="#myCarousel"></li>
-                    <li data-slide-to="2" data-target="#myCarousel"></li>
-                    <li data-slide-to="3" data-target="#myCarousel"></li>
-                </ul>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-12 card-deck ">
-                                <div class="card bg-dark text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-dark text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-dark text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+        <div class="col-md-6 offset-3">
+           <div class="card">
+               <div class="card-body">
+                   <form action="#" method="get">
+                       <div class="form-group">
+                           <label for="login">Loginni kiriting</label>
+                           <input type="text" id="login" class="form-control" placeholder="Loginni kiriting...">
+                       </div>
+                       <div class="form-group">
+                           <label for="password">Parolni kiriting</label>
+                           <input type="password" id="password" class="form-control">
+                       </div>
+                       <div class="form-group">
+                           <label for="dist">Qo'shimcha ma'lumot</label>
+                           <textarea id="dist" class="form-control" placeholder="Qo'shimcha ma'lumot"></textarea>
+                       </div>
+                       <div class="form-group">
+                           <label for="region">Regionni tanlang</label>
+                           <select name="region" id="region" class="form-control">
+                               <option value="1">Toshkent</option>
+                               <option value="2">Samarqand</option>
+                               <option value="3">Buxoro</option>
+                               <option value="4">Xorazm</option>
+                           </select>
+                       </div>
+                       <button type="button" class="btn btn-success btn-block">Tizimga kirish</button>
+                   </form>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                            All categories
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Toshkent</a>
+                            <a href="#" class="dropdown-item">Samarqand</a>
+                            <a href="#" class="dropdown-item">Buxoro</a>
+                            <a href="#" class="dropdown-item">Xorazm</a>
                         </div>
                     </div>
-                    <div class="carousel-item ">
-                        <div class="row">
-                            <div class="col-md-12 card-deck ">
-                                <div class="card bg-danger text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-danger text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-danger text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="row">
-                            <div class="col-md-12 card-deck ">
-                                <div class="card bg-info text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-info text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card bg-info text-white">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Deleniti, dicta, dignissimos et eum eveniet excepturi id
-                                            illo incidunt laboriosamLorem ipsum dolor sit amet, cons
-                                            ectetur adipisicing elit Deleniti, dicta, dignissimos et
-                                            eum eveniet excepturi id illo incidunt laboriosam non,
-                                            nulla odio omnis quaerat quas rerum sed sunt velit vitae?
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
-                        </div>
+                    <input type="text" class="form-control" id="search" placeholder="Search">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-danger">&telrec;</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
